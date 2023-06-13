@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        h1{color: blue;
+            font-style: normal;
+         
+        }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align-last: center;" ><b><i>Coding is fun!! try it!!!</i></b></h1>
+    <!--<h2 style="text-align-last: center;"><b style="font-style: unset;">Create a new account</b></h2>-->
+    <form action="" style="align-content: center;" method="post" autocomplete="on" id="form1">
+        <fieldset style="width: fit-content;" style="align-content: center;" style="align-self: center;" >
+            <legend>Personal Details:</legend>
+    <label for="fname">FirstName</label>
+    <input type="text" name="fname" id="fname" placeholder="FirstName" required autofocus><br>
+
+    <label for="Lname">LastName</label>
+    <input type="text" name="Lname" id="Lname" placeholder="LastName" required><br>
+
+    <label for="pwd">Create a password</label>
+    <input type="password" name="pwd" id="pwd" placeholder="password" required><br>
+
+    <!--Forms That Include Gender-->
+
+    <label for="gender">Choose your gender:</label>
+    <select name="gender" id="gender" required>
+        <option value="male">Male</option>
+        <option value="Fmale">Female</option>
+        <option value="transgender">Transgender</option>
+        <option value="null" selected>  </option>
+    </select><br>
+
+<!--Forms That Include Sexuality-->
+
+    <label for="sexuality">Sexuality</label>
+    <select name="sexuality" id="sexuality" required >
+        <option value="straight">Heterosexual/Straight</option>
+        <option value="gay">Gay</option>
+        <option value="les">Lesbian</option>
+        <option value="trans">Transgender</option>
+        <option value="cant">Cannot say</option>
+        <option value="boff" selected>  </option>
+    </select><br>
+
+    <!--Forms That Include Email-->
+
+    <label for="email">Enter your email</label>
+    <input type="email" name="email" id="email" placeholder="email address" required><br>
+
+<!--Forms That Include Country-->
+
+    <label for="country">Country</label>
+    <input list="country" name="country" placeholder="country" required>
+    <datalist id="country">
+        <option value="Afghanistan">
+        <option value="Albania">
+        <option value=" Algeria">
+        <option value="Andorra">
+        <option value="Angola">
+        <option value="Antigua and Barbuda">
+        <option value="Argentina">
+        <option value="Armenia">
+        <option value=" Australia">
+        <option value=" Austria">
+        <option value=" Azerbaijan"><br>
+               </datalist><br>
+
+<!--Forms That Include Disability-->
+
+               Disability:
+               <input type="radio" name="dis" value="no">NO
+               <input type="radio" name="dis" value="no">YES <br>
+
+<!--Forms That Include Employment Status-->
+
+               Employment status:
+               <input type="radio" name="emp" value="unemployed">Unemployed
+               <input type="radio" name="emp" value="employed">Employed <br>
+
+<!--Forms That Include DOB-->
+
+               Date of birth:
+               <input type="date" name="Dob" id="Dob"><br>
+
+<!--Forms That Include Appointment-->
+
+               Appointment
+               <input type="datetime-local" name="app" id="app"><br>
+
+<!--Forms That Include Date restrictions-->               
+
+               period of employment time <br>
+               begin
+               <input type="date" name="datemin" id="datemin" min="1943-06-11"><br>
+               end
+               <input type="date" name="datemax" id="datemax" max="2030-06-11"><br>
+
+<!--Forms for adding files-->
+
+               Add files
+               <input type="file" name="myfile" id="myfile" multiple><br>
+
+<!--Form for assigning unique id or hidden sequence-->
+
+               <input type="hidden" id="stuID" name="stuID" value="222"><br>
+
+<!--Form for searching-->
+
+               Search Race:
+               <input type="search" name="rsearch" id="rsearch" placeholder="search"><button type="submit">search</button><br>
+
+<!--Forms including phone number-->
+
+               PhoneNumber
+               <input type="tel" name="phone" id="phone" placeholder="123-45-67" required><br>
+               <small><small>follow format</small></small><br><br>
+
+<!--pin-->
+
+               pin:
+               <input type="text" name="pin" id="pin" maxlength="4" size="4">
+               
+        </fieldset>
+    <button type="submit">Submit</button>
+    <button type="button" onclick="alert('Save Details?')">Save</button>
+    <button type="reset">Reset</button>
+    </form>
+<!--for adding things outside form to be part of formbut reamin where it is -->
+   <!-- <label for="email">Enter your email</label>
+    <input type="email" name="email" id="email" placeholder="email address" required form="form1"><br>-->
+
+    
+</body>
+</html>
