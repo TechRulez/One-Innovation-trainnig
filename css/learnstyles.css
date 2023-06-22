@@ -1,0 +1,15 @@
+h1{color: blue;
+    font-style: normal;
+  }
+  .login_btn{
+    color: blueviolet;
+    background-color: black;
+    border: dashed 1px #0f0;
+    border-radius: 15px;
+  }
+  #m_sg{
+    background-color: aqua;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%; border: 0;
+  }
