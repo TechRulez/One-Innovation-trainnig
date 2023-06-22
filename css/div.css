@@ -1,0 +1,19 @@
+
+
+
+
+
+.header{
+    border: 2px red solid;
+}
+
+.main{
+    border: 1px solid;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin: 10%;
+    /* margin: t r b l; */
+    /* border-radius: 50px 60px 70px 100px; */
+    border-radius: 50px;
+}
